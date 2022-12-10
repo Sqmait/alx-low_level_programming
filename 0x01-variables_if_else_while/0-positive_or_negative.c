@@ -1,4 +1,4 @@
-#include <stdio.h>
+#! bin/sh
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */

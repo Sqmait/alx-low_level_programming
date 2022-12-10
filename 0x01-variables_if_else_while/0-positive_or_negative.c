@@ -27,4 +27,4 @@ int main(void)
 		orintf("%d is negative\n");
 	}
 	return (0);
-}
+}.

@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *  main - main function to generate a random number
  *
@@ -27,4 +28,4 @@ int main(void)
 		orintf("%d is negative\n");
 	}
 	return (0);
-}.
+}

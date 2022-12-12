@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a programm that prints all the numbers
+ * main - a programm that prints all the numbers and letters
  *
  * Return: return 0 (success0
  */

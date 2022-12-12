@@ -4,16 +4,17 @@
  *
  * Return 0 (success)
  */
-int main(void) 
+
+int main(void)
 {
 	char c;
 
 	c = 'd';
-        while
-        	(c >= 'n') {
+	while
+		(c >= 'n') {
 			putchar(c);
 			c--;
-			}
+		}
 	putchar('\n');
 	return (0);
 }

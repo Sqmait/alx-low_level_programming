@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o 1-compiler.o
+export CFILE=1-main.c ; ./1-compiler

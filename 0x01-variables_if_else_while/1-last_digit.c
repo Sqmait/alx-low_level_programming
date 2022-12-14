@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Will assign a random number to the variable n
+ * main - will assign a random number to the variable n
  *
- * Return: Return 0 (Success)
+ * Return: Return 0 (success)
  */
 int main(void)
 {

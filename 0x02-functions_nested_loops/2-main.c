@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - confirming code
+ * main - check the code.
  *
- * Return: Alays 0.
+ * Return: Always 0.
  */
 
 int main(void)
 {
-	print_alphabet_X10();
+	print_alphabet_x10();
 	return (0);
 }

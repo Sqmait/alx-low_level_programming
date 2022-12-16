@@ -2,22 +2,21 @@
 
 /**
  * main -printing sum of even valued terms
- *
  * Return: 0 (suceess)
  */
 
 int main(void)
 {
-	int n = 0;
-	long m = 1, k = 2, sum = o;
+	int i = 0;
+	long j = 1, k = 2, sum = k;
 
-	while (o + m < 4000000)
+	while (k + j < 4000000)
 	{
-	o += j;
-	if (o % 2 == 0)
-	sum += o;
-	m = o - m;
-	++n;
+	k += j;
+	if (k % 2 == 0)
+	sum += k;
+	j = k - j;
+	++i;
 	}
 	printf("%ld\n", sum);
 	return (0);

@@ -11,7 +11,7 @@ int main(void)
 	f = 1;
 	while (f <= g)
 	{
-	if (f % f == 0 && f % 5 == 0)
+	if (f % 3 == 0 && f % 5 == 0)
 	{
 	printf("FizzBuzz");
 	}

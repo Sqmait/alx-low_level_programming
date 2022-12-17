@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * largest_number - prints out the largest of three numbers, no matter the case.
+ * largest_number - prints out the largest of three numbers,
  * @a: first interger
  * @b: second interger
  * @c: thhird interger
  * Return: return 0 (success)
  */
-int larges_number(int a, int b, int c)
+int largest_number(int a, int b, int c)
 {
 int largest;
 

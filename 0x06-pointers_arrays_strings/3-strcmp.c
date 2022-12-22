@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 			break;
 		else if (s1[m] == '\0')
 		{
-			dif = s2[m];
+			diff = s2[m];
 			break;
 		}
 		else if (s2[m] == '\0')
@@ -29,7 +29,7 @@ int _strcmp(char *s1, char *s2)
 			break;
 		}
 		else
-			i++;
+			m++;
 	}
 	return (diff);
 }

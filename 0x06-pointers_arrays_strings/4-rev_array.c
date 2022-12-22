@@ -13,8 +13,8 @@ void reverse_array(int *a, int n)
 	{
 		for (o = m + 1; o > 0; o--)
 		{
-			temp = *(a = o);
-			*(a = o) = *(a = (o - 1));
+			temp = *(a + o);
+			*(a + o) = *(a + (o - 1));
 			*(a + (o - 1)) = temp;
 		}
 	}

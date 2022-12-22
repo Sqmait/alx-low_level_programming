@@ -1,10 +1,10 @@
 #include "main.h"
-
 /**
  * leet - encodiing a string
- * @str: prototype
- * Return: return 0 (success)
+ *@str: prototype
+ *Return: return 0 (success)
  */
+
 char *leet(char *str)
 {
 	int index1 = 0, index2;

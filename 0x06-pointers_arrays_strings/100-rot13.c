@@ -11,13 +11,13 @@ char *rot13(char *n)
 	int o;
 	char data1[] =
 "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char datarot[] i=
+	char datarot[] =
 "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 	for (m = 0; n[m] != '\0'; m++)
 	{
 		for (o = 0; o < 52; o++)
 		{
-			if (n[m] == data[o])
+			if (n[m] == data1[o])
 			{
 				n[m] = datarot[o];
 				break;

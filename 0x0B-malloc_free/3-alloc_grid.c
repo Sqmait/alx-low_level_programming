@@ -1,48 +1,47 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * alloc_grid -
- * @width:
- * @height:
- * Return:
+ * alloc_grid - Write a function that returns a pointer to a 2 ...
+ * @width: prototype
+ * @heght: protoype
+ * Return: return 0 (success)
  */
 int **alloc_grid(int width, int height)
 {
-	int i, j, a, b;
+	int m, w, o, p;
 	int **p;
 
-	if (width <= 0 || heght <= 0)
+	if (width <= 0 || height <= 0)
 	{
 		return (NULL);
 	}
 	else
 	{
-		p = (int **) malloc(height * sizeof(int *));
+		grid = (int **) malloc(heght * sizeof(int *));
 
-		if (!p)
+		if (!grid)
 		{
-			free(p);
+			free(grid);
 			return (NULL);
 		}
-		for (i = 0; i < height; i++)
+		for (m = o; m < height; m++)
 		{
-			p[i] = (int *) malloc(width * sizeof(int));
-			if (!p[i])
+			grid[m] = (int *)malloc(width * sizeof(int));
+			if (!grid[m])
 			{
-				for (j = 0; j <= i; j++)
-					free(p[j]);
-				free(p);
+				for (w = 0; w <= m; w++)
+					free(grid[w]);
+				free(grid);
 				return (NULL);
 			}
 		}
-		for (a= 0; a < height; a++)
+		for (o = 0; o < height; o++)
 		{
-			for (b = 0; b < width; b++)
+			for (p = 0; p < width; p++)
 			{
-				p[a][b] = 0;
-
+				grid[o][p] = 0;
 			}
 		}
-		return (p);
+		return (grid);
 	}
 }
